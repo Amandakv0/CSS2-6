@@ -5,13 +5,15 @@
 }
 #mainWhiteContainer{
     width: 100%;
-    max-width: 1280px;
+    max-width: 1480px;
     border: 50px solid #E4EBFF;
     margin: 0 auto;
     display: block;
     margin-top: 60px;
+    margin-bottom: 200px;
 }
 #headerDiv{
+    margin-top: 90px;
     margin-bottom: 90px;
     text-align: center;
 }
@@ -27,26 +29,28 @@ h1{
     font-weight: 600;
     padding-bottom: 32px;
 }
-#subParag{
+#subParag, #deliverParag{
     color: #535862;
-    font-size: 20px;
-    text-align: center;
+    font-size: 18px;
+    padding-bottom: 32px;
 }
 #firstBigContainer{
     width: 100%;
     margin-bottom: 100px;
 }
 #firstSectionFrame{
+    margin-bottom: 100px;
     display: inline-block;
     width: 100%;
 }
 #shareInobxesContainer{
+    width: fit-content;
     display: inline-block;
     vertical-align: top;
     margin-top: 100px;
     margin-left: 30px;
 }
-#inboxId{
+#inboxId, #deliverIcon, #iCon{
     display: block;
     width: 44px;
     height: 44px;
@@ -67,33 +71,81 @@ h1{
     color: #535862;
     font-size: 18px;
 }
-#inboxTicksFrame{
+#inboxTicksFrame, #deliverTicks,
+#reportTicks{
     display: inline-block;
     width: 100%;
     max-width: 480px;
     padding-left: 16px;
 }
-#firstTick, #secondTick, #thirdsTick{
+#firstTick, #secondTick, #thirdsTick,
+#first, #second, #third, #circle,
+#secondCircle, #thirdCircle{
     width: 28px;
     height: 28px;
     display: inline-block;
     margin-right: 12px;
     vertical-align: middle;
 }
-#leverage, #alwaysGive, #automate{
+#leverage, #alwaysGive, #automate,
+#keep, #embed, #customers, #filter,
+#SAVE, #connect{
     display: inline-block;
     vertical-align: middle;
     color: #535862;
     font-size: 18px;
 }
-#firstOne, #secondONe, #thirdONe{
+#firstOne, #secondONe, #thirdONe,
+#one, #two, #three, #oneDiv,
+#secondDiv, #thirdDiv{
     margin-bottom: 20px;
     display: block;
 }
-#firstDiagramm{
-    width: 600px;
-    height: 500px;
+#secondImg{
+    vertical-align: top;
+    text-align: left;
+    display: inline-block;
+    width: fit-content;
+    margin-right: 60px;
+}
+#seconDiagramm, #firstDiagramm, #lastImg{
+    width: 500px;
+    height: 400px;
+    display: inline-block;
+}
+#lastImg{
+    margin-left: auto;
+}
+#deliverMainFrame{
     vertical-align: top;
     display: inline-block;
-    text-align: right;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 520px;
+}
+#deliverFrame{
+    margin-top: 32px;
+}
+#deliverHeader, #manageReportsHeader{
+    padding-bottom: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#deliverParag, #manageParag{
+    color: #535862;
+    font-size: 18px;
+    padding-bottom: 32px;
+}
+#secondBigContainer{
+    margin-bottom: 100px;
+}
+#iCon{
+    margin-left: 32px;
+}
+#manageReportsFrame{
+    vertical-align: top;
+    display: inline-block;
+    padding-left: 32px;
+    width: 100%;
+    max-width: 520px;
 }
