@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#mainWhiteContainer{
+    width: 100%;
+    max-width: 1280px;
+    border: 50px solid #E4EBFF;
+    margin: 0 auto;
+    display: block;
+    margin-top: 60px;
+}
+#headerDiv{
+    margin-bottom: 90px;
+    text-align: center;
+}
+#features{
+    color: #6941C6;
+    font-size: 16px;
+    font-weight: 600;
+}
+h1{
+    padding: 12px;
+    color: #181D27;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 32px;
+}
+#subParag{
+    color: #535862;
+    font-size: 20px;
+    text-align: center;
+}
+#firstBigContainer{
+    width: 100%;
+    margin-bottom: 100px;
+}
+#shareInobxesContainer{
+    vertical-align: top;
+    margin-top: 100px;
+    margin-left: 30px;
+    text-align: left;
+}
+#inboxId{
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 24px;
+}
+#shareInboxesFrame{
+    width: 100%;
+    max-width: 490px;
+    margin-bottom: 32px;
+}
+#shareInboxes{
+    column-rule-color: #181D27;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+#inboxesParag{
+    color: #535862;
+    font-size: 18px;
+}
+#inboxTicksFrame{
+    width: 100%;
+    max-width: 480px;
+    padding-left: 16px;
+}
+#firstTick, #secondTick, #thirdsTick{
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+#leverage, #alwaysGive, #automate{
+    display: inline-block;
+    vertical-align: middle;
+    color: #535862;
+    font-size: 18px;
+}
+#firstOne, #secondONe, #thirdONe{
+    margin-bottom: 20px;
+    display: block;
+}
