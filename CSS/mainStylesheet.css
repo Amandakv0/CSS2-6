@@ -36,11 +36,15 @@ h1{
     width: 100%;
     margin-bottom: 100px;
 }
+#firstSectionFrame{
+    display: inline-block;
+    width: 100%;
+}
 #shareInobxesContainer{
+    display: inline-block;
     vertical-align: top;
     margin-top: 100px;
     margin-left: 30px;
-    text-align: left;
 }
 #inboxId{
     display: block;
@@ -64,6 +68,7 @@ h1{
     font-size: 18px;
 }
 #inboxTicksFrame{
+    display: inline-block;
     width: 100%;
     max-width: 480px;
     padding-left: 16px;
@@ -84,4 +89,11 @@ h1{
 #firstOne, #secondONe, #thirdONe{
     margin-bottom: 20px;
     display: block;
+}
+#firstDiagramm{
+    width: 600px;
+    height: 500px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: right;
 }
