@@ -101,21 +101,6 @@ h1{
     margin-bottom: 20px;
     display: block;
 }
-#secondImg{
-    vertical-align: top;
-    text-align: left;
-    display: inline-block;
-    width: fit-content;
-    margin-right: 60px;
-}
-#seconDiagramm, #firstDiagramm, #lastImg{
-    width: 500px;
-    height: 400px;
-    display: inline-block;
-}
-#lastImg{
-    margin-left: auto;
-}
 #deliverMainFrame{
     vertical-align: top;
     display: inline-block;
@@ -148,4 +133,14 @@ h1{
     padding-left: 32px;
     width: 100%;
     max-width: 520px;
+}
+#firstDiagrammFrame, #lastImageFrame{
+    text-align: right;
+    display: inline-block;
+    width: 840px;
+}
+#secondImg{
+    text-align: left;
+    display: inline-block;
+    width: 800px;
 }
